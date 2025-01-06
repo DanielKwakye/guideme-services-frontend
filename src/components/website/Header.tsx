@@ -7,7 +7,7 @@ import { CircleArrowRight } from 'lucide-react';
 function Header() {
     return (
         <div>
-            <div className="relative border h-[24rem] rounded-2xl bg-no-repeat bg-primary hover:bg-black cursor-pointer transition duration-1000 hover:scale-110">
+            <div className="relative border h-[24rem] rounded-2xl bg-no-repeat bg-primary transition duration-1000 hover:bg-black cursor-pointer animated flipInX">
 
                 <div className="flex">
 
@@ -18,7 +18,7 @@ function Header() {
                         </h1>
                         <p> Connect with experienced people to guide you through the process and get it done </p>
                         <div className="flex gap-4">
-                            <Button className="bg-white font-bold text-black hover:bg-primary hover:text-white inline-flex gap-4 hover:font-bold">
+                            <Button className="bg-white font-bold text-black hover:bg-primary hover:text-white inline-flex gap-4 hover:font-bold hover:scale-110 duration-300 transition">
                                 <span>Seek Guidance</span> <CircleArrowRight />
                             </Button>
                         </div>
