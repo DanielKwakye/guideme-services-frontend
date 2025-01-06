@@ -3,7 +3,7 @@ import Header from "@/components/website/Header.tsx";
 
 function LandingPage() {
     return (
-        <div className="space-y-16">
+        <div className="space-y-20">
             {/* Menu items */}
             <NavBar />
 
