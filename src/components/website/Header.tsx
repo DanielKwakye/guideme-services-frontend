@@ -14,9 +14,9 @@ function Header() {
                     <div className="p-12 flex-1 space-y-8 text-white ">
 
                         <h1 className="text-6xl font-bold">
-                            Don't let the task frustrate you.
+                            Turn frustration into progress
                         </h1>
-                        <p> Connect with experienced people to guide you through the process and get it done </p>
+                        <p> Connect with experienced professionals to guide you. Get the personalized support you need to complete your tasks with ease. </p>
                         <div className="flex gap-4">
                             <Button className="bg-white font-bold text-black hover:bg-primary hover:text-white inline-flex gap-4 hover:font-bold hover:scale-110 duration-300 transition">
                                 <span>Seek Guidance</span> <CircleArrowRight />
