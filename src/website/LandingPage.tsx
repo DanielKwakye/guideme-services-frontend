@@ -19,7 +19,7 @@ function LandingPage() {
                 {/* Consultants section    */}
                 <section className="">
                     <h1 className="text-4xl font-bold">Consultants</h1>
-                    <p className="max-w-screen-md">Experienced professionals offering personalized guidance to help you achieve your goals efficiently.</p>
+                    <p className="max-w-screen-md">Experienced professionals offering one-on-one guidance to help you complete your tasks efficiently.</p>
                     <div className="h-12"></div>
                     <div className="flex gap-4 overflow-hidden">
                         <ConsultantCard/>
@@ -32,8 +32,8 @@ function LandingPage() {
                 {/* Learners section    */}
 
                 <section className="">
-                    <h1 className="text-4xl font-bold">Learners</h1>
-                    <p className="max-w-screen-md"> Individuals seeking guidance and insights to overcome challenges and grow with expert mentorship. </p>
+                    <h1 className="text-4xl font-bold">Clients</h1>
+                    <p className="max-w-screen-md"> Individuals seeking one-on-one guidance to complete challenging tasks. </p>
                     <div className="h-12"></div>
                     <div className="flex gap-4 overflow-hidden">
                         <ClientCard/>
