@@ -1,5 +1,5 @@
 import {AlignJustifyIcon, SearchIcon} from "lucide-react";
-import GuideMeLogoBlack from '../../assets/images/guideme-logo-black.svg'
+import GuideMeLogoBlack from "@/assets/images/guide-me-logo-black.svg";
 import {Button} from "@/components/ui/button.tsx";
 
 function NavBar() {

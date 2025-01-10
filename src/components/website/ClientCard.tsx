@@ -16,7 +16,7 @@ function ClientCard({ name = "Domnic Asiedu", title = "Software Engineer" } : { 
                 </div>
                 <p className="line-clamp-3 overflow-hidden text-ellipsis">  I'm looking for guidance on training an AI Deforum model. This is my first time working with such a model, and I’m unsure where to begin. I need step-by-step help to get started and understand the process. </p>
                 <div className="flex justify-between">
-                    <strong> CAD $9/hr </strong>
+                    <strong>Offer: CAD $9/hr </strong>
                     <Button variant={"outline"} className="shadow-none"> Provide assistance </Button>
                 </div>
             </div>

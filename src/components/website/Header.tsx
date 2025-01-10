@@ -17,7 +17,7 @@ function Header() {
                             Don't Stress. Let an expert guide you.
                         </h1>
                         <div>
-                            <p> This platform is designed for professionals to provide one-one-one guidance to other
+                            <p> This platform is designed for professionals to provide one-on-one guidance to other
                                 professionals working on new challenging tasks. </p>
                             <p className="font-bold"> ** No outsourcing of projects ** </p>
                         </div>

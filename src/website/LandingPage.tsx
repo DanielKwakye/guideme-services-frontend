@@ -2,6 +2,8 @@ import NavBar from "@/components/website/NavBar.tsx";
 import Header from "@/components/website/Header.tsx";
 import ConsultantCard from "@/components/website/ConsultantCard.tsx";
 import ClientCard from "@/components/website/ClientCard.tsx";
+import Testimonials from "@/components/website/Testimonials.tsx";
+import Footer from "@/components/website/Footer.tsx";
 
 function LandingPage() {
     return (
@@ -33,7 +35,8 @@ function LandingPage() {
 
                 <section className="">
                     <h1 className="text-4xl font-bold">Clients</h1>
-                    <p className="max-w-screen-md"> Individuals seeking one-on-one guidance to complete challenging tasks. </p>
+                    <p className="max-w-screen-md"> Individuals seeking one-on-one guidance to complete challenging
+                        tasks. </p>
                     <div className="h-12"></div>
                     <div className="flex gap-4 overflow-hidden">
                         <ClientCard/>
@@ -43,8 +46,18 @@ function LandingPage() {
                     </div>
                 </section>
 
+                {/*  Testimonials  */}
+                <section className="">
+                    <h1 className="text-4xl font-bold">Testimonials</h1>
+                    <p className="max-w-screen-md"> See what others are gaining from the platform </p>
+                    <div className="h-12"></div>
+                    <Testimonials/>
+                </section>
+
             </div>
 
+            {/*  Footer   */}
+            <Footer />
 
         </div>
     )
