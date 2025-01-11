@@ -23,7 +23,7 @@ function Footer() {
                             <li className='tracking-tight hover:text-primary hover:font-bold text-sm'>About us</li>
                         </ul>
 
-                        <ul className="flex flex-col decoration-0 gap-4 ">
+                        <ul className="flex flex-col decoration-0 gap-4 items-center">
                             <li className='tracking-tight hover:text-primary text-sm mb-4 font-bold'>Get in touch
                             </li>
                             <li className='tracking-tight hover:text-primary text-sm'>Email: support@guidem.services
@@ -34,7 +34,7 @@ function Footer() {
                         </ul>
 
 
-                        <ul className="flex flex-col decoration-0 gap-4 ">
+                        <ul className="flex flex-col decoration-0 gap-4 items-end">
                             <li className='tracking-tight hover:text-primary text-sm mb-4 font-bold'>Address
                             </li>
                             <li className='tracking-tight hover:text-primary text-sm'>St. John's
@@ -49,7 +49,7 @@ function Footer() {
 
                 <div className="h-[1px] bg-slate-700"></div>
 
-                {/* Bootom Footer */}
+                {/* Bottom Footer */}
                 <div className="container mx-auto flex justify-between px-6 py-4">
                     <div className="inline-flex gap-8">
                         <img src={GuideMeLogoWhite} alt="GuidMe Logo" className='-mt-1'/>
