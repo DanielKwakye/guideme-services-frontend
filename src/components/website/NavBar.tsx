@@ -32,11 +32,11 @@ function NavBar() {
                             <img src={GuideMeLogoBlack} alt="GuidMe Logo" className='-mt-1'/>
                         </NavLink>
                         <ul className="inline-flex gap-8 decoration-0">
-                            <li className='tracking-tight hover:text-primary hover:font-bold'>Request Guidance</li>
-                            <li className='tracking-tight hover:text-primary hover:font-bold'>Provide Guidance</li>
-                            <li className='tracking-tight hover:text-primary hover:font-bold'>About Website</li>
-                            <li className='tracking-tight hover:text-primary hover:font-bold'>What's New</li>
-                            <li className='tracking-tight hover:text-primary hover:font-bold'>Pricing</li>
+                            <li className='tracking-tight hover:text-primary'>Request Guidance</li>
+                            <li className='tracking-tight hover:text-primary'>Provide Guidance</li>
+                            <li className='tracking-tight hover:text-primary'>About Website</li>
+                            <li className='tracking-tight hover:text-primary'>What's New</li>
+                            <li className='tracking-tight hover:text-primary'>Pricing</li>
                         </ul>
                     </div>
 
