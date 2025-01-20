@@ -1,14 +1,12 @@
-import DummyProfilePhoto from "@/assets/images/gm-dummy-profile-photo-2.svg";
 import {Button} from "@/components/ui/button.tsx";
+import UserProfilePhoto from "@/components/ui/UserProfilePhoto.tsx";
 
 function ClientCard({ name = "Domnic Asiedu", title = "Software Engineer" } : { name?: string, title?: string } ) {
     return (
         <>
             <div className="border p-4 min-w-sm max-w-sm rounded-md space-y-8 cursor-pointer group-hover:text-white group-hover:bg-black">
                 <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full overflow-clip bg-primary">
-                        <img src={DummyProfilePhoto} alt="" className="w-full h-full object-cover"/>
-                    </div>
+                    <UserProfilePhoto />
                     <div className="flex flex-col">
                         <p className="text-lg font-bold"> { name } </p>
                         <small>{ title }</small>
