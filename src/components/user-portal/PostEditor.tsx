@@ -4,7 +4,7 @@ import {Input} from "@/components/ui/input.tsx";
 function PostEditor() {
     return (
         <>
-            <div className="border p-4 rounded">
+            <div className="border px-4 py-8 rounded">
                 <div className="flex flex-row gap-4 items-center bg">
                     <div>
                         <UserProfilePhoto size={ {width: 9, height: 9} } />

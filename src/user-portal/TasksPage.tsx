@@ -20,7 +20,7 @@ function TasksPage() {
                     <PostEditor/>
 
                     {/*  categories ( Recent posts, bookmarked posts ) */}
-                    <div className="flex flex-row my-4 gap-4">
+                    <div className="flex flex-row mt-10 mb-4 gap-4">
                         <div
                             className="cursor-pointer py-2 px-4 bg-black hover:bg-primary text-white rounded-full inline-flex flex-row gap-2 items-center">
                             <Sparkles size={18}/>

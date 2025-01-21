@@ -19,6 +19,13 @@ function SideBar() {
                 <Button variant={"outline"} className="w-full">Always Available</Button>
             </div>
 
+            {/* Request Feature */}
+            <div className="flex flex-col gap-4 border p-8 items-center text-center rounded">
+                <h1>Request Feature</h1>
+                <p>Let's grow with you. Is there any feature you'd want us to consider?</p>
+                <Button variant={"outline"} className="w-full">Tell us about it</Button>
+            </div>
+
         </div>
 
 
